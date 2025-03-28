@@ -8,7 +8,7 @@ def calculate_discount(price,discount_percentage):
 
     if discount_percentage >= 20:
         discount = price * 0.02
-        new_price = price + discount
+        new_price = price - discount
         print(f"You have been give a discount of {discount}")
         print(f"Your new paying price is {new_price}")
 
